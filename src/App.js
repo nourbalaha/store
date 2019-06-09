@@ -1,6 +1,6 @@
 import React from 'react';
 import {Switch,Route} from 'react-router-dom';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
@@ -21,8 +21,6 @@ function App() {
     <Route path="/cart" component={Cart}></Route>
     <Route component={Default}></Route>
   </Switch>
-
-
 </React.Fragment>
 
   );
